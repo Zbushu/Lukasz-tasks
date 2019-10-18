@@ -4,7 +4,7 @@ plugins {
 	id 'java'
 }
 
-apply plugin: 'war'
+//apply plugin: 'war'
 
 group = 'com.crud'
 version = '0.0.1-SNAPSHOT'
@@ -20,6 +20,6 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	compile 'org.springframework.boot:spring-boot-starter-data-jpa'
-	compile 'mysql:mysql-connector-java'
+	//compile 'mysql:mysql-connector-java'
     // providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
 }
