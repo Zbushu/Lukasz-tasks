@@ -4,7 +4,7 @@ plugins {
 	id 'java'
 }
 
-// apply plugin: 'war'
+//apply plugin: 'war'
 
 group = 'com.crud'
 version = '0.0.1-SNAPSHOT'
